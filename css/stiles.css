@@ -1,0 +1,405 @@
+* {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+
+		body {
+			background: #ddd;
+			font: 14px/20px Arial, san-serif;
+			color: #555;
+			margin: 0;
+			padding: 0;
+			
+					}
+
+		h1 {
+			text-align: center;
+			font-size: 180%;
+			line-height: 120%;
+			padding: 5% 0;
+		}
+
+		h2 {
+			text-decoration: underline;
+			line-height: 280%;
+			padding-left: 2%;
+		}
+
+		h3 {
+			line-height: 110%;
+			padding: 5% 0;
+		}
+
+		p {
+			padding: 1%;
+		}
+
+		img {
+			text-align: center;
+			max-width: 100%;
+			height: auto;
+			width: auto;
+		}
+
+		a {
+			color: #FFF;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		a:hover {
+			color: #FFF;
+			text-decoration: underline;
+		}
+
+		header {
+			background: #405580;
+			width: 100%;
+			height: 50px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 100;
+			opacity: 0.90;
+		}
+
+		#logo {
+			margin: 5px;
+			float: left;
+			width: 80px;
+			height:40px;
+			background: url(service.JPG) no-repeat center;
+		}
+
+		nav {
+			float: right;
+			padding: 15px 20px 20px 0;
+		}
+
+		#menu-icon {
+			display: hidden;
+			width: 40px;
+			height: 40px;
+			background: url(icon.png) center;
+		}
+
+		a:hover#menu-icon {
+			border-radius: 4px 4px 0 0;
+		}
+
+		ul {
+			list-style: none;
+		}
+
+		nav ul li {
+			display: inline-block;
+			float: left;
+			padding: 10px;
+		}
+		ul li{
+list-style:none;
+display:inline-block;
+padding: 0 10px;
+height: 20px;
+}
+
+		.current {
+			color: #FFF;
+			text-decoration: underline;
+		}
+
+		section {
+			width: 29%;
+			float: left;
+			margin: 2% 2%;
+			text-align: center;
+		}
+
+		.clear {
+			clear: both;
+		}
+
+		article {
+			float: left;
+			margin: 0 auto;
+			width: 50%;
+			height: auto;
+			padding: 4%;
+		}
+
+		aside {
+			float: right;
+			margin: 0 auto;
+			width: 35%;
+			height: auto;
+			padding: 3%
+		}
+
+		ul.cyber li {
+			padding-left: 3%;
+		}
+
+		ul.cyber li a {
+			color: #405580;
+		}
+
+		footer {
+			background: #333333;
+			width: 100%;
+			overflow: hidden;
+			opacity: 0.90;
+		}
+
+		footer p,
+		footer h3 {
+			color: #FFF;
+		}
+
+		footer p a {
+			color: #FFF;
+			text-decoration: none;
+		}
+
+		ul.social li {
+			display: inline;
+		}
+
+		ul.social li img {
+			height: 50px;
+		}
+
+		footer.second {
+			border-top: 1px solid #4D4E50;
+			background-color: #333333;
+			max-height: 50px;
+			text-align: center;
+			opacity: 0.95;
+		}
+
+		#gh {
+			background-color: #ddd;
+		}
+
+		#lasts {
+			background: #ccc;
+		}
+
+		#yoga {
+			text-align: center;
+		}
+		/* seo block styling */
+
+		#site-control-content .seo-block {
+			font-family: Arial, Helvetica, sans-serif;
+			border: 2px solid #dbdcdc;
+			border-top: none;
+			margin: 30px auto;
+			max-width: 980px;
+			overflow: hidden;
+		}
+
+		.seo-block .col-xs-12 {
+			background-color: #CCC;
+			height: 45px;
+		}
+
+		.seo-block h2 {
+			margin: 0 0 0 15px;
+			line-height: 44px;
+			font-size: 19px;
+			font-weight: bold;
+		}
+
+		.last h3 {
+			background-color: transparent;
+			line-height: 1em;
+			padding: 0;
+			font-size: 1em;
+		}
+
+		.seo-block h3 {
+			margin-top: 0;
+			font-size: 1em;
+			font-weight: bold;
+		}
+
+		.seo-block .col-xs-6 {
+			box-sizing: border-box;
+			width: 50%;
+			float: left;
+			position: relative;
+			min-height: 1px;
+			padding: 30px;
+		}
+
+		.seo-block .col-xs-6.last {
+			padding-left: 0;
+		}
+
+		.seo-block p {
+			font-size: 13px;
+		}
+
+		#jumbo {
+			#background-image: url("one.jpg");
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 350px;
+			text-shadow: black 0.3em 0.3em 0.3em;
+  			#background:transparent;
+			opacity: 0.90;
+			top:30;
+		}
+
+		#jumbo h1 {
+			color: #fff;
+			text-align: center;
+			font-family: 'Press Start 2P', cursive;
+		}
+
+		.jumbotron {
+			margin-bottom: 0px;
+  			height: 200px;
+  			color: white;
+  			text-shadow: black 0.3em 0.3em 0.3em;
+  			background:transparent;
+		}
+
+		#buttonHolder {
+ width: 300px;
+ text-align: center;
+}
+
+#buttonHolder img {
+    padding-left: 5px;
+}
+
+.photoCont {
+  height: 150px;
+  width: 300px;
+	background-color: #eeeeee;
+	//-moz-border-radius: 15px;
+	//border-radius: 15px;
+  border: white solid 5px;
+  overflow: hidden;
+  position: absolute;
+  left: 300px;
+}
+
+#photo1 img{
+   position: absolute; 
+}
+
+.clearFix:after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0px;
+  clear: both;
+}
+
+h4 {
+      font-family: FFDINWebPro;
+      font-weight: 800;
+      color: #999999;
+      text-decoration: none;
+      padding: 0px 0px 10px 0px;
+      text-transform: uppercase;
+      data-font-size=" 18 " data-line-height="24 "
+    }
+
+    h5 {
+      color: #3359df;
+    }
+    #one{
+       border-bottom-style: outset;
+       font-family: FFDINWebPro; 
+       background-color: #3359df; 
+       opacity:0.9; 
+       font-size: 18px; 
+       line-height: 35px; 
+       font-style: normal; 
+       font-weight: 700; 
+       color: #000000; 
+       text-decoration: none; 
+       letter-spacing: 0px; 
+       text-transform: none; 
+       text-align: center; 
+       
+    }
+    #two {
+      border-bottom-style: outset;
+
+    }
+    #three {
+      #border-bottom-style: outset;
+    }
+    #four {
+      border-bottom-style: outset;
+    }
+    #outsetBorder {
+      #border-left-style: outset;
+     border-left:3px solid #FFB2B2;
+
+  }
+    #left1 ul li {
+      list-style: none;
+    }
+		/*__________________________Media!!!__________*/
+
+		@media screen and (max-width: 478px) {
+			body {
+				position: absolute;
+			}
+		}
+
+		@media screen and (max-width: 740px) {
+			header {
+				position: absolute;
+			}
+			#menu-icon {
+				display: inline-block;
+
+			}
+			nav ul,
+			nav:active ul {
+				display: none;
+				position: absolute;
+				padding: 20px;
+				background: #405580;
+				border: 1px solid #FFF;
+				right: 20px;
+				top: 60px;
+				width: 50%;
+				border-radius: 2px 0 2px 2px:
+			}
+			nav li {
+				text-align: center;
+				width: 100%;
+				padding: 10px 0;
+				margin: 0;
+			}
+			nav:hover ul {
+				display: block;
+			}
+			section {
+				float: left;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			article {
+				float: left;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			aside {
+				float: left;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+		}

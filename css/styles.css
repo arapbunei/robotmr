@@ -1,0 +1,241 @@
+
+
+
+
+#logoJumbo {
+    background-image: url("../img/backgrounds/landing.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#logoJumbo {
+    font-weight: lighter;
+    color: #fff;
+}
+
+#logoJumbo h2 {
+    text-align: center;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#breakfast {
+    background-image: url("../img/foodtop/breakfast.jpg");
+}
+
+#lunch {
+    background-image: url("../img/foodtop/lunch.jpg");
+}
+
+#dinner {
+    background-image: url("../img/foodtop/dinner.jpg");
+}
+
+.happyhour {
+    background-color: bisque;
+    height: 105px;
+}
+
+.partytime {
+    background-color: #F15A29;
+    height: 105px;
+}
+
+.partytime, h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.meal {
+    background-position: center;
+    height: 210px;
+}
+
+.meal h2 {
+    text-align: center;
+    padding: 70px;
+    font-style: italic;
+    font-weight: lighter
+}
+
+#section4 {
+    background-image: url("../img/backgrounds/foodsBg.jpg");
+}
+
+#section6 {
+    background-image: url("../img/backgrounds/subscribe.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#section6 h3 {
+    text-align: center;
+    color: #fff;
+}
+
+#section7 {
+    background-color: #F15A29;
+}
+
+#section7 h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#section7 h3 {
+    text-align: center;
+    color: #fff;
+}
+
+#section7 p {
+    text-align: center;
+    color: #fff;
+}
+
+.social {
+    text-align: center;
+}
+
+.thumb {
+    padding: 50px;
+}
+
+#mail {
+    background-image: url('../img/subscribe.jpg');
+    text-align: center;
+}
+
+#section7 {
+    width: 100%;
+    height: 200px;
+}
+
+.subscribe {
+    background-image: url('../img/subscribe.jpg');
+    width: 1400px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    padding: 5%;
+}
+
+.subscription {
+    color: white;
+    text-align: center;
+}
+
+.border-left {
+    border-left: 2px solid #a6a7a8;
+}
+
+.center {
+    text-align: center;
+    border: 3px solid #e6e8ed;
+    margin: 0 auto;
+    //  margin-left: auto;
+    //margin-right: auto;
+}
+
+#substate {
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.navbar {
+    padding-left: 20%;
+}
+
+.btn-group {
+    width: 1200px 200px;
+    padding-top: 10%;
+}
+
+.customers {
+    width: 914px;
+    height: 200px;
+}
+
+footer {
+    background-color: #f96018;
+    width: 1400px;
+    height: 400px;
+}
+
+#logo_white p {
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+}
+
+#motto {
+    text-align: center;
+    padding-top: 1%;
+    color: white;
+}
+
+#copyright {
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+}
+
+i {
+    color: #F15A29;
+}
+
+.button3 {
+    border-color: red;
+    color: red;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid;
+    opacity: 0.7;
+}
+
+.btn {
+    background-color: #F15A29;
+}
+
+.box {
+    border: 3px solid #e6e8ed;
+    padding: 5px 5px 5px 15px;
+}
+
+.right-half {
+    border: 3px solid #e6e8ed;
+    padding: 5px 5px 5px 15px;
+}half
+
+h4 {
+    color: red;
+}
+
+.Srow {
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
+
+.Trow {}
+
+.container-fluid {
+    background-image: url("../img/backgrounds/
+Bg.jpg");
+}
+
+.container {
+    background-color: #f3f2ef;
+    border-radius: 5px;
+    text-align: center;
+}
